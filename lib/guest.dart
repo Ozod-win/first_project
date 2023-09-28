@@ -2,6 +2,10 @@ import 'dart:math';
 import 'dart:io';
 
 enum DifficultyMode { easy, medium, hard, unknown }
+void main(){
+  guessNumber();
+}
+
 
 void guessNumber() {
   int attempts = 5;
@@ -14,7 +18,7 @@ void guessNumber() {
     print("""
 Qiyinchilik darajasini tanlang:
 1. Oson (0 - 10)
-2. O'rta (0 - 30)
+2. O'rta (0 - 30)I. 
 3. Qiyin (0 - 100)
 Ilovadan chiqish uchun "exit" so'zini kiriting!
           """);
